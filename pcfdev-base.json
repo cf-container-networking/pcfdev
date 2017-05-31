@@ -126,6 +126,7 @@
                 "apt-get -y install curl unzip zip sysstat vim",
                 "apt-get -y install libruby2.1 ruby2.1",
                 "apt-get -y install linux-generic",
+                "apt-get -y install pkg-config",
                 "apt-get -y install aufs-tools",
                 "apt-get -y install libgcrypt20 libgcrypt20-dev",
                 "apt-get -y install postgresql-client-9.4",

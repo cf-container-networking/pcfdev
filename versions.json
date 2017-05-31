@@ -37,10 +37,7 @@
       "compiled_release_url": "https://s3.amazonaws.com/pcfdev/compiled-releases/consul-v152-1487572008.tgz"
     },
     "diego" : {
-      "version": "v1.6.2-2-ge72d8e9b",
-      "sha1": "772811be89e7986644a19be1217242c5b3760fbc",
-      "source_location": "https://github.com/cloudfoundry/diego-release.git",
-      "compiled_release_url": "https://s3.amazonaws.com/pcfdev/compiled-releases/diego-v1.6.2-2-ge72d8e9b-1487572650.tgz"
+      "path": "/Users/pivotal/workspace/diego-release"
     },
     "etcd" : {
       "version": "v90",
@@ -49,10 +46,7 @@
       "compiled_release_url": "https://s3.amazonaws.com/pcfdev/compiled-releases/etcd-v90-1487599860.tgz"
     },
     "garden-runc" : {
-      "version": "v1.1.1",
-      "sha1": "c94aea9abeaa74f3eefe4a7f091080d9ac509322",
-      "source_location": "https://github.com/cloudfoundry/garden-runc-release.git",
-      "compiled_release_url": "https://s3.amazonaws.com/pcfdev/compiled-releases/garden-runc-v1.1.1-1487573813.tgz"
+      "path": "/Users/pivotal/workspace/garden-runc-release"
     },
     "go-buildpack" : {
       "version": "65dd7bfc6ecf4821af28500887c3a09e8c3f9152",
@@ -125,6 +119,11 @@
       "sha1": "2dafd3758fc0c1f6793e2a7df59e254595474f43",
       "source_location": "https://github.com/cloudfoundry/uaa-release.git",
       "compiled_release_url": "https://s3.amazonaws.com/pcfdev/compiled-releases/uaa-v25-1-g935c0fa-1487577489.tgz"
-    }
+    },
+    "cf-networking": {
+    "version": "v0.25.0",
+    "path": "/Users/pivotal/workspace/cf-networking-release",
+    "source_location": "cf-networking-release"
+   }
   }
 }
